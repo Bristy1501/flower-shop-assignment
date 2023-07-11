@@ -5,17 +5,39 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
+
 .btn-primary {
     padding: 13px 28px;
     border-radius: 5px;
     background: #E55473;
     color: #ffffff;
     border: none;
+    text-align: center;
+}
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 0px 240px 15px 240px;
+    margin-top: 100px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0px 160px 15px 160px;
+    margin-right: 240px;
+    margin-left: 240px;
 }
 
 header {
     background: rgba(229, 84, 115, 0.10);
 }
+
 /* banner section styles */
 
 .banner {
@@ -51,3 +73,96 @@ header {
     width: 635px;
     padding: 30px 180px 0px 50px;
 }
+/* feature section styles */
+.feature {}
+
+
+
+.feature-content {
+    max-width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 120px 0 120px;
+}
+
+.feature-item {
+    width: 33%;
+}
+
+.feature-item .feature-image {
+    width: 300px;
+    height: 350px;
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px 45px 0 45px;
+    margin: 10px;
+}
+
+#feature-image-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#feature-image-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#feature-image-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+figcaption .feature-title {
+    
+    margin-top: 35px;
+}
+
+.feature-title a {
+    text-align: center;
+    color: #272727;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    display: block;
+}
+/* deals section styles */
+.deals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px ;
+    background: rgba(229, 84, 115, 0.05);
+}
+.deals-content{
+    
+}
+
+.deals-title{
+    color: #272727;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    display: block;
+    
+}
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 0 150px;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    text-align: center;
+}
+.deals-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.deals-content .deals-pic{
+    width: 318px;
+    padding: 15px 70px 0 40px;
+    margin-right: 100px;
+    /* padding: 30px 180px 0px 50px; */
+}
+
+
