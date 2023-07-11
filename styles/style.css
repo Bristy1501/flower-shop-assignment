@@ -241,6 +241,36 @@ footer{
     font-size: 9px;
     font-weight: 400;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0px 0 0px;
+    background-color:  #FFE7ED;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 100px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
 
 
 
